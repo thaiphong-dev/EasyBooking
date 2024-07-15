@@ -3,7 +3,7 @@ import React from "react";
 
 export default function FooterPC() {
   return (
-    <div className="hidden xl:flex justify-center items-center fixed bottom-0 h-fit text-[17px] w-full py-10 space-x-10 bg-background-green text-white ">
+    <div className="hidden xl:flex justify-center items-center mt-[20px] h-fit text-[17px] w-full py-10 space-x-10 bg-background-green text-white ">
       <div className="w-[1200px] h-full flex justify-between items-start">
         <div className="space-y-[5px]">
           <p className="font-bold text-[35px] ">Easy Booking</p>

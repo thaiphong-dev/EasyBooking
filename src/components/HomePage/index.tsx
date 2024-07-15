@@ -1,6 +1,6 @@
-import Image from "next/image";
 import React from "react";
+import Banner from "../Common/Banner";
 
 export default function HomePage() {
-  return <div></div>;
+  return <Banner />;
 }
