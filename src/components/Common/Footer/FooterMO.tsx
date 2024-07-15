@@ -9,12 +9,12 @@ export default function FooterMO() {
   const router = useRouter();
 
   return (
-    <div className="xl:hidden absolute bottom-0 w-full py-4 rounded-t-[40px] px-[10px] bg-white drop-shadow-lg flex justify-between items-center border-t-[2px]">
+    <div className="xl:hidden absolute bottom-0 w-full py-4 rounded-t-[40px] text-[13px] sm:text-[15px] bg-white drop-shadow-lg flex justify-around items-center border-t-[2px]">
       <Link
-        className=" flex flex-col justify-center items-center text-[12px] font-medium"
+        className=" flex flex-col justify-center items-center  font-medium"
         href={"/"}
       >
-        <div className="w-[24px] aspect-square relative">
+        <div className="w-[24px] sm:w-[28px] aspect-square relative">
           {router.pathname === "/" ? (
             <Image
               src="/images/icons/house fill.svg"
@@ -37,10 +37,10 @@ export default function FooterMO() {
         </div>
       </Link>
       <Link
-        className="flex flex-col justify-center items-center text-[12px] font-medium"
+        className="flex flex-col justify-center items-center  font-medium"
         href={"/products"}
       >
-        <div className="w-[24px] aspect-square relative">
+        <div className="w-[24px] sm:w-[28px] aspect-square relative">
           {router.pathname === "/products" ? (
             <Image
               src="/images/icons/Product filled.svg"
@@ -70,10 +70,10 @@ export default function FooterMO() {
         </div>
       </Link>
       <Link
-        className="flex flex-col justify-center items-center text-[12px] font-medium"
+        className="flex flex-col justify-center items-center  font-medium"
         href={"/booking"}
       >
-        <div className="w-[24px] aspect-square relative">
+        <div className="w-[24px] sm:w-[28px] aspect-square relative">
           {router.pathname === "/booking" ? (
             <Image
               src="/images/icons/Pencil fill.svg"
@@ -103,10 +103,10 @@ export default function FooterMO() {
         </div>
       </Link>
       <Link
-        className="flex flex-col justify-center items-center text-[12px] font-medium"
+        className="flex flex-col justify-center items-center  font-medium"
         href={"/cart"}
       >
-        <div className="w-[24px] aspect-square relative">
+        <div className="w-[24px] sm:w-[28px] aspect-square relative">
           {router.pathname === "/cart" ? (
             <Image
               src="/images/icons/wallet fill.svg"
@@ -134,10 +134,10 @@ export default function FooterMO() {
         </div>
       </Link>
       <Link
-        className="flex flex-col justify-center items-center text-[12px] font-medium"
+        className="flex flex-col justify-center items-center  font-medium"
         href={"/profile"}
       >
-        <div className="w-[24px] aspect-square relative">
+        <div className="w-[24px] sm:w-[28px] aspect-square relative">
           {router.pathname === "/profile" ? (
             <Image
               src="/images/icons/user fill.svg"

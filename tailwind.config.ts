@@ -15,7 +15,8 @@ const config: Config = {
       },
       colors: {
         "color-main": "#32B768",
-        "background-green": "#D1FAE5",
+        "background-footer": "#32B768",
+        "background-green": "rgba(32,100,60,1)",
         "background-disable": "#F4F4F4",
         "text-disable": "#9CA3AF",
         "background-red": "#EB4646",
