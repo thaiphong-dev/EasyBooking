@@ -3,7 +3,7 @@ import React from "react";
 
 export default function HomeHeaderMO() {
   return (
-    <div className="flex justify-between items-center px-[15px] pt-[35px]">
+    <div className="flex justify-between items-center px-[15px] pt-[35px] bg-background-MO ">
       <div className="w-[18px] aspect-square relative">
         <Image
           src="/images/icons/Humberger.svg"

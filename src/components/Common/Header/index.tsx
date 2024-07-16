@@ -6,7 +6,7 @@ import CommonHeaderPC from "./CommonHeaderPC";
 export default function Header() {
   return (
     <div>
-      <div className="space-y-[20px] xl:hidden">
+      <div className="space-y-[20px] xl:hidden bg-background-MO ">
         <HomeHeaderMO />
         <SearchBar />
       </div>

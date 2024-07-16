@@ -8,7 +8,9 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <div className="h-full">
       <Header />
-      <Component {...pageProps} />
+      <div className="pb-[70px] bg-background-MO xl:bg-white">
+        <Component {...pageProps} />
+      </div>
       <Footer />
     </div>
   );

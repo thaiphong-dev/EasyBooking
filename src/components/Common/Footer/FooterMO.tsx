@@ -9,7 +9,7 @@ export default function FooterMO() {
   const router = useRouter();
 
   return (
-    <div className="xl:hidden absolute bottom-0 w-full py-4 rounded-t-[40px] text-[13px] sm:text-[15px] bg-white drop-shadow-lg flex justify-around items-center border-t-[2px]">
+    <div className="xl:hidden fixed bottom-0 z-50 w-full py-3 rounded-t-[40px] text-[13px] sm:text-[15px] bg-white drop-shadow-lg flex justify-around items-center border-t-[2px]">
       <Link
         className=" flex flex-col justify-center items-center  font-medium"
         href={"/"}

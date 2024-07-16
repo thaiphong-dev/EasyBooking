@@ -9,4 +9,9 @@ body {
   font-family: 'Quicksand';
   min-width: '375px';
   min-height: '100%';
+  @apply text-[13px] sm:text-[15px] xl:text-[16px]
+}
+
+.swiperSlide {
+  @apply !m-0 !mr-5 !w-fit
 }

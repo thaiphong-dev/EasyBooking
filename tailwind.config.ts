@@ -15,11 +15,16 @@ const config: Config = {
       },
       colors: {
         "color-main": "#32B768",
+        "background-MO": "#F6F6F6",
         "background-footer": "#32B768",
         "background-green": "rgba(32,100,60,1)",
         "background-disable": "#F4F4F4",
-        "text-disable": "#9CA3AF",
+        "text-color-disable": "#9CA3AF",
+        "text-color-gray": "#6B7280",
         "background-red": "#EB4646",
+      },
+      boxShadow: {
+        "item-shadow": "0px 2px 8px 0px gba(0, 0, 0, 0.04)",
       },
     },
   },
