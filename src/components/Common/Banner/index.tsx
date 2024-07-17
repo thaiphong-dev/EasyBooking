@@ -7,7 +7,7 @@ export default function Banner() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="flex justify-center items-center xl:block p-5 xl:p-0">
-      <div className="h-[620px] hidden xl:block">
+      <div className="h-[500px] hidden xl:block">
         <Swiper
           autoplay={{
             delay: 2500,
@@ -17,7 +17,7 @@ export default function Banner() {
           modules={[Autoplay]}
         >
           <SwiperSlide>
-            <div className="w-full h-[620px]">
+            <div className="w-full h-[500px]">
               <Image
                 src="/images/banners/banner.webp"
                 fill
@@ -27,7 +27,7 @@ export default function Banner() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-full h-[620px]">
+            <div className="w-full h-[500px]">
               <Image
                 src="/images/banners/banner1.webp"
                 fill
@@ -37,7 +37,7 @@ export default function Banner() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-full h-[620px]">
+            <div className="w-full h-[500px]">
               <Image
                 src="/images/banners/banner2.webp"
                 fill
@@ -47,7 +47,7 @@ export default function Banner() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="w-full h-[620px]">
+            <div className="w-full h-[500px]">
               <Image
                 src="/images/banners/banner3.webp"
                 fill
